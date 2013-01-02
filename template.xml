@@ -580,7 +580,9 @@ body.mobile  {
 body.mobile .AdSense {
   margin: 0 -10px;
 }
+
 #navbar-iframe,#navbar { display: none !important; }
+#Attribution1 {display: none;}
 ]]></b:skin>
 
     <b:template-skin>
