@@ -581,6 +581,8 @@ body.mobile .AdSense {
   margin: 0 -10px;
 }
 
+#header-inner img {margin: 0 auto !important;}
+#header-inner {text-align: Center ;}
 #navbar-iframe,#navbar { display: none !important; }
 #Attribution1 {display: none;}
 ]]></b:skin>
