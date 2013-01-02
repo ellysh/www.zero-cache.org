@@ -25,8 +25,8 @@ URL:      jasonmorrow.etsy.com
 
    <Group description="Body Text" selector="body">
      <Variable name="body.font" description="Font" type="font"
-         default="normal normal 13px Arial, Tahoma, Helvetica, FreeSans, sans-serif" value="normal normal 13px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
-     <Variable name="body.text.color" description="Text Color" type="color" default="#666666" value="#666666"/>
+         default="normal normal 13px Arial, Tahoma, Helvetica, FreeSans, sans-serif" value="normal normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+     <Variable name="body.text.color" description="Text Color" type="color" default="#666666" value="#222222"/>
    </Group>
 
    <Group description="Background" selector=".body-fauxcolumns-outer">
@@ -68,7 +68,7 @@ URL:      jasonmorrow.etsy.com
    <Group description="Post Title" selector="h3.post-title, h4, h3.post-title a">
      <Variable name="post.title.font" description="Font" type="font"
          default="normal normal 24px Times, Times New Roman, serif" value="normal normal 24px Times, Times New Roman, serif"/>
-     <Variable name="post.title.text.color" description="Text Color" type="color" default="#2198a6" value="#75cdff"/>
+     <Variable name="post.title.text.color" description="Text Color" type="color" default="#2198a6" value="#0081cc"/>
    </Group>
 
    <Group description="Gadget Title" selector="h2">
