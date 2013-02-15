@@ -581,6 +581,10 @@ body.mobile .AdSense {
   margin: 0 -10px;
 }
 
+#blog-pager {
+display: none;
+}
+
 #header-inner img {margin: 0 auto !important;}
 #header-inner {text-align: Center ;}
 #navbar-iframe,#navbar { display: none !important; }
@@ -672,7 +676,7 @@ body.mobile .AdSense {
         gapi.load(&quot;iframes-styles-bubble&quot;, function() {
           if (window.iframes &amp;&amp; iframes.open) {
             iframes.open(
-                &#39;//www.blogger.com/navbar.g?targetBlogID\0752149093459840257575\46blogName\75zero-cache\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75LIGHT\46layoutType\75LAYOUTS\46searchRoot\75http://zero-cache.blogspot.com/search\46blogLocale\75en\46v\0752\46homepageUrl\75http://zero-cache.blogspot.com/\46readAccessMode\75PRIVATE\46vt\75-3238015220478565434&#39;,
+                &#39;//www.blogger.com/navbar.g?targetBlogID\0752149093459840257575\46blogName\75Zero-cache\46publishMode\75PUBLISH_MODE_HOSTED\46navbarType\75LIGHT\46layoutType\75LAYOUTS\46searchRoot\75http://www.zero-cache.org/search\46blogLocale\75en\46v\0752\46homepageUrl\75http://www.zero-cache.org/\46vt\759104333951588379817&#39;,
                 {
                   container: &quot;navbar-iframe-container&quot;,
                   id: &quot;navbar-iframe&quot;
@@ -760,7 +764,7 @@ head.appendChild(script);
     <div class='fauxborder-right header-fauxborder-right'/>
     <div class='region-inner header-inner'>
       <b:section class='header' id='header' maxwidgets='1' showaddelement='no'>
-<b:widget id='Header1' locked='true' title='zero-cache (Header)' type='Header'>
+<b:widget id='Header1' locked='true' title='Zero-cache (Header)' type='Header'>
 <b:includable id='main'>
 
   <b:if cond='data:useImage'>
@@ -1502,7 +1506,7 @@ head.appendChild(script);
                 <b:if cond='data:top.showTimestamp'>
                   <data:top.timestampLabel/>
                   <b:if cond='data:post.url'>
-                    <meta expr:content='data:post.url' itemprop='url'/>
+                    <meta expr:content='data:post.canonicalUrl' itemprop='url'/>
                     <a class='timestamp-link' expr:href='data:post.url' rel='bookmark' title='permanent link'><abbr class='published' expr:title='data:post.timestampISO8601' itemprop='datePublished'><data:post.timestamp/></abbr></a>
                   </b:if>
                 </b:if>
